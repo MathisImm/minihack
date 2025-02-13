@@ -25,9 +25,9 @@ class Sokoban(MiniHackNavigation):
 
         super().__init__(*args, **kwargs)
 
-    def step(self, action: int):
-        self._current_pits = self._object_positions(self.last_observation, "^")
-        return super().step(action)
+    @property
+    def current_pits(self):
+        return self._object_positions(self.last_observation, "^")
 
     def _is_episode_end(self, observation):
         result = super()._is_episode_end(observation)
@@ -38,8 +38,8 @@ class Sokoban(MiniHackNavigation):
                 return self.StepStatus.RUNNING
 
         # stepping into a pit should result in death
-        agent_pos = list(self._object_positions(observation, "@"))[0]
-        if any([agent_pos == pos for pos in self._current_pits]):
+        agent_pos = next((pos for pos in self._object_positions(observation, "@")), None)
+        if any([agent_pos == pos for pos in self.current_pits]):
             return self.StepStatus.DEATH
 
         return result

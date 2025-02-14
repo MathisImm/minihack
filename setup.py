@@ -112,7 +112,7 @@ if __name__ == "__main__":
         long_description=long_description,
         long_description_content_type="text/markdown",
         author="The MiniHack Team",
-        url="https://github.com/facebookresearch/minihack",
+        url="https://github.com/samvelyan/minihack",
         license="Apache License, Version 2.0",
         entry_points=entry_points,
         packages=packages,

@@ -18,4 +18,4 @@ jobs:
       - run: pip install -q uv && uv pip install --system ruff isort
       - run: ruff format --check --diff .
       - run: ruff check
-      - run: isort -c --diff nle/
+      - run: isort -c --diff minihack/

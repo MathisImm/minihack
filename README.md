@@ -1,5 +1,5 @@
 <p align="center">
- <img width="80%" src="https://raw.githubusercontent.com/facebookresearch/minihack/main/docs/imgs/minihack.png" />
+ <img width="80%" src="https://raw.githubusercontent.com/samvelyan/minihack/main/docs/imgs/minihack.png" />
 </p>
 
 <p align="center">
@@ -7,7 +7,7 @@
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" /></a>
   <a href="https://minihack.readthedocs.io/en/latest/?badge=latest"><img src="https://readthedocs.org/projects/minihack/badge/?version=latest" /></a>
   <a href="https://pepy.tech/project/minihack"><img src="https://static.pepy.tech/personalized-badge/minihack?period=total&units=international_system&left_color=black&right_color=red&left_text=Downloads" /></a>
-  <a href="https://github.com/facebookresearch/minihack/actions/workflows/test_and_deploy.yml"><img src="https://github.com/facebookresearch/minihack/actions/workflows/test_and_deploy.yml/badge.svg?branch=main" /></a>
+  <a href="https://github.com/samvelyan/minihack/actions/workflows/test_and_deploy.yml"><img src="https://github.com/samvelyan/minihack/actions/workflows/test_and_deploy.yml/badge.svg?branch=main" /></a>
   <a href="https://arxiv.org/abs/2109.13202"><img src="https://img.shields.io/badge/arXiv-2109.13202-b31b1b.svg"/></a>
  </p>
 
@@ -21,7 +21,7 @@ MiniHack comes with a large list of challenging [environments](https://minihack.
 The motivation behind MiniHack is to be able to perform RL experiments in a controlled setting while being able to increasingly scale the complexity of the tasks.
 
 <p align="center">
- <img width="90%" src="https://raw.githubusercontent.com/facebookresearch/minihack/main/docs/imgs/minihack_gameplay_collage.gif" />
+ <img width="90%" src="https://raw.githubusercontent.com/samvelyan/minihack/main/docs/imgs/minihack_gameplay_collage.gif" />
 </p>
 
 To do this, MiniHack leverages the so-called [description files](https://nethackwiki.com/wiki/Des-file_format) written using a human-readable probabilistic-programming-like domain-specific language. With just a few lines of code, people can generate a large variety of [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) environments, controlling every little detail, from the location and types of monsters, to the traps, objects, and terrain of the level, all while introducing randomness that challenges generalization capabilities of RL agents. For further details, we refer users to our [brief overview](https://minihack.readthedocs.io/en/latest/getting-started/des_files.html), [detailed tutorial](https://minihack.readthedocs.io/en/latest/tutorials/des_file_tutorial.html), or [interactive notebook](./docs/tutorials/des_file_tutorial.ipynb).
@@ -29,7 +29,7 @@ To do this, MiniHack leverages the so-called [description files](https://nethack
 [Our documentation](https://minihack.readthedocs.io/) will walk you through everything you need to know about MiniHack, step-by-step, including information on how to get started, configure environments or design new ones, train baseline agents, and much more.
 
 <p align="center">
- <img width="90%" src="https://raw.githubusercontent.com/facebookresearch/minihack/main/docs/imgs/des_file.gif" />
+ <img width="90%" src="https://raw.githubusercontent.com/samvelyan/minihack/main/docs/imgs/des_file.gif" />
 </p>
 
 ### MiniHack Level Editor
@@ -37,7 +37,7 @@ To do this, MiniHack leverages the so-called [description files](https://nethack
 The [MiniHack Level Editor](https://minihack-editor.github.io) allows to easily define MiniHack environments inside a browser using a convenient drag-and-drop functionality. The source code is available [here](https://github.com/minihack-editor/minihack-editor.github.io).
 
 <p align="center">
- <img width="75%" src="https://raw.githubusercontent.com/facebookresearch/minihack/main/docs/imgs/level_editor.png" />
+ <img width="75%" src="https://raw.githubusercontent.com/samvelyan/minihack/main/docs/imgs/level_editor.png" />
 </p>
 
 ### Language Wrapper
@@ -72,7 +72,7 @@ We thank [ngoodger](https://github.com/ngoodger) for implementing the [NLE Langu
 - Parker-Holder et al. [That Escalated Quickly: Compounding Complexity by Editing Levels at the Frontier of Agent Capabilities](https://openreview.net/forum?id=3qGInPFqR0p) (Oxford, FAIR, UCL, Berkeley, DeepRL Workshop 2021)
 - Samvelyan et al. [MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research](https://arxiv.org/abs/2109.13202) (FAIR, UCL, Oxford, NeurIPS 2021)
 
-Open a [pull request](https://github.com/facebookresearch/minihack/edit/main/README.md) to add papers.
+Open a [pull request](https://github.com/samvelyan/minihack/edit/main/README.md) to add papers.
 
 # Installation
 
@@ -86,7 +86,7 @@ pip install minihack
 If you wish to extend MiniHack, please install the package as follows:
 
 ```bash
-git clone https://github.com/facebookresearch/minihack
+git clone https://github.com/samvelyan/minihack
 cd minihack
 pip install -e ".[dev]"
 pre-commit install

@@ -107,34 +107,34 @@ class MiniHackSokoban4b(Sokoban):
 
 
 register(
-    id="MiniHack-Sokoban4a-v0",
+    id="MiniHack-Sokoban4a-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban4a",
 )
 register(
-    id="MiniHack-Sokoban4b-v0",
+    id="MiniHack-Sokoban4b-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban4b",
 )
 register(
-    id="MiniHack-Sokoban3a-v0",
+    id="MiniHack-Sokoban3a-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban3a",
 )
 register(
-    id="MiniHack-Sokoban3b-v0",
+    id="MiniHack-Sokoban3b-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban3b",
 )
 register(
-    id="MiniHack-Sokoban2a-v0",
+    id="MiniHack-Sokoban2a-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban2a",
 )
 register(
-    id="MiniHack-Sokoban2b-v0",
+    id="MiniHack-Sokoban2b-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban2b",
 )
 register(
-    id="MiniHack-Sokoban1a-v0",
+    id="MiniHack-Sokoban1a-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban1a",
 )
 register(
-    id="MiniHack-Sokoban1b-v0",
+    id="MiniHack-Sokoban1b-v1",
     entry_point="minihack.envs.sokoban:MiniHackSokoban1b",
 )

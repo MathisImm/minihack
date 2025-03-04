@@ -49,7 +49,7 @@ We thank [ngoodger](https://github.com/ngoodger) for implementing the [NLE Langu
 
 - Paglieri et al. [BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games](https://arxiv.org/abs/2411.13543) (UCL, Oxford, NYU, ICLR 2025)
 - Gumbsch et al. [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/forum?id=TjCDNssXKU) (Uni Tübingen, MPI-IS, UCL, ICLR 2024)
-- Raparthy et al. [Learning to Solve New sequential decision-making Tasks with In-Context Learning](https://arxiv.org/abs/2312.03801) (Meta AI, UCL, FMDM 2023)
+- Raparthy et al. [Generalization to New Sequential Decision Making Tasks with In-Context Learning](https://arxiv.org/abs/2312.03801) (Meta AI, UCL, ICML 2024)
 - Nottingham et al. [Selective Perception: Learning Concise State Descriptions for Language Model Actors](https://openreview.net/forum?id=siFopuPuCS) (UC Irvine, FMDM 2023)
 - Prakash et al. [LLM Augmented Hierarchical Agents ](https://arxiv.org/abs/2311.05596) (Maryland, JHU, LangRob 2023)
 - Castanyer et al. [Improving Intrinsic Exploration by Creating Stationary Objectives](https://arxiv.org/abs/2310.18144) (Mila, Ubisoft, Nov 2023)

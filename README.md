@@ -13,6 +13,9 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
+> __Update__
+> MiniHack now supports the [Gymnasium API](https://github.com/Farama-Foundation/Gymnasium) and runs on [NLE 1.1.0](https://github.com/heiner/nle). Big thanks to [@StephenOman](https://github.com/StephenOman) for this contribution!
+
 MiniHack is a sandbox framework for easily designing rich and diverse environments for Reinforcement Learning (RL).
 Based on the game of [NetHack](https://en.wikipedia.org/wiki/NetHack), MiniHack uses the [NetHack Learning Environment (NLE)](https://github.com/heiner/nle) to communicate with the game and to provide a convenient interface for customly created RL training and test environments of varying complexity.
 Check out our [NeurIPS 2021 paper](https://arxiv.org/abs/2109.13202) and recent [blogpost](https://ai.facebook.com/blog/minihack-a-new-sandbox-for-open-ended-reinforcement-learning).

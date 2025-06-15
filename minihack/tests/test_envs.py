@@ -207,7 +207,7 @@ class TestGymEnvRollout:
         obs0, info0 = env0.reset()
         seeds0 = env0.unwrapped.get_seeds()
 
-        assert seeds0 == (123456, 789012, False)
+        assert seeds0 == (123456, 789012, False, None)
 
         env1.unwrapped.seed(*seeds0)
         obs1, info1 = env1.reset()
@@ -237,6 +237,7 @@ class TestGymEnvRollout:
             random.randrange(sys.maxsize),
             random.randrange(sys.maxsize),
             False,
+            None,
         )
         env0.unwrapped.seed(*initial_seeds)
         obs0, info0 = env0.reset()

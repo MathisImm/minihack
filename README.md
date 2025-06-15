@@ -50,6 +50,8 @@ We thank [ngoodger](https://github.com/ngoodger) for implementing the [NLE Langu
 
 # Papers using MiniHack
 
+- De Smet et al. [Relational Neurosymbolic Markov Models](https://ojs.aaai.org/index.php/AAAI/article/view/33777) (KU Leuven, AAAI 2025)
+- Debot et al. [Neurosymbolic Reinforcement Learning: Playing MiniHack with Probabilistic Logic Shields](https://ojs.aaai.org/index.php/AAAI/article/view/35349) (KU Leuven, Demo Tack AAAI 2025)
 - Paglieri et al. [BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games](https://arxiv.org/abs/2411.13543) (UCL, Oxford, NYU, ICLR 2025)
 - Gumbsch et al. [Learning Hierarchical World Models with Adaptive Temporal Abstractions from Discrete Latent Dynamics](https://openreview.net/forum?id=TjCDNssXKU) (Uni Tübingen, MPI-IS, UCL, ICLR 2024)
 - Raparthy et al. [Generalization to New Sequential Decision Making Tasks with In-Context Learning](https://arxiv.org/abs/2312.03801) (Meta AI, UCL, ICML 2024)

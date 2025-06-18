@@ -51,7 +51,7 @@ def main():
             ch = ord(event.key)
 
         try:
-            action = env.actions.index(ch)
+            action = env.unwrapped.actions.index(ch)
             step(action)
         except (ValueError, TypeError):
             print(

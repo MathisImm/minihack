@@ -2,7 +2,7 @@
 
 import os
 import zipfile
-from importlib.resources import files
+from importlib_resources import files
 
 DESTINATION_PATH = files("minihack.dat")
 BOXOBAN_REPO_URL = (

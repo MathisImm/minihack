@@ -3,7 +3,7 @@ import os
 import random
 
 import numpy as np
-from importlib.resources import files
+from importlib_resources import files
 from nle import nethack
 from minihack.envs import register
 from minihack import LevelGenerator, MiniHackNavigation

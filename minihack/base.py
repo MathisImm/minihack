@@ -5,7 +5,7 @@ import subprocess
 import random
 import gymnasium as gym
 import numpy as np
-from importlib.resources import files
+from importlib_resources import files
 from typing import Tuple
 
 from nle import _pynethack, nethack

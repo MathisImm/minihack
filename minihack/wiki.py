@@ -8,7 +8,7 @@ from functools import lru_cache
 from typing import List
 from urllib.parse import unquote
 
-from importlib.resources import files
+from importlib_resources import files
 
 try:
     import inflect

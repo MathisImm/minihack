@@ -3,7 +3,7 @@
 from minihack.tiles import glyph2tile, MAXOTHTILE
 from nle.nethack import MAX_GLYPH
 import numpy as np
-from importlib.resources import files
+from importlib_resources import files
 import pickle
 import os
 

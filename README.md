@@ -50,6 +50,7 @@ We thank [ngoodger](https://github.com/ngoodger) for implementing the [NLE Langu
 
 # Papers using MiniHack
 
+- Immertreu et al. [Probing for consciousness in machines](https://doi.org/10.3389/frai.2025.1610225) (FAU Erlangen-Nuremberg, Aug 2025)
 - Sancaktar et al. [SENSEI: Semantic Exploration Guided by Foundation Models to Learn Versatile World Models](https://arxiv.org/abs/2503.01584) (Uni Tübingen, MPI-IS, ICML 2025)
 - De Smet et al. [Relational Neurosymbolic Markov Models](https://ojs.aaai.org/index.php/AAAI/article/view/33777) (KU Leuven, AAAI 2025)
 - Debot et al. [Neurosymbolic Reinforcement Learning: Playing MiniHack with Probabilistic Logic Shields](https://ojs.aaai.org/index.php/AAAI/article/view/35349) (KU Leuven, Demo Tack AAAI 2025)
